@@ -1,6 +1,6 @@
 
 var Api = {
-  getData: (url) -> {
+  getData: (url) => {
     return $.get(url);
   }
 }

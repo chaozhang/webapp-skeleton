@@ -5,7 +5,7 @@ var _store = {
 }
 
 var Store = {
-  getData: -> {
+  getData: () => {
     var def = $.Deferred();
 
     if(_store.data) {
