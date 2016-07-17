@@ -1,5 +1,7 @@
 import React from 'react'
 import Router from 'react-router'
+import Home from './pages/home.es6'
+import About from './pages/about.es6'
 import Footer from './components/footer.es6'
 import Header from './components/header.es6'
 import Nav from './components/nav.es6'
