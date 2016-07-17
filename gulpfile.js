@@ -1,6 +1,5 @@
 var gulp        = require('gulp');
 var deploy      = require('gulp-gh-pages');
-var jquery      = require('gulp-jquery');
 var del         = require('del');
 var browserify  = require("browserify");
 var babelify    = require("babelify");

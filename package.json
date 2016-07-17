@@ -24,7 +24,6 @@
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-gh-pages": "^0.5.4",
-    "gulp-jquery": "^1.0.2",
     "gulp-stylus": "^2.0.6",
     "nib": "^1.1.0",
     "react": "^0.13.3",
