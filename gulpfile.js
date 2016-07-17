@@ -39,9 +39,12 @@ gulp.task('app:js', function () {
 
 // build app js
 gulp.task('app:js:vendor', function () {
-  gulp.src([paths.vendor + '/jquery-1.11.3.min.js'])
-    .pipe(concat('vendor.js'))
-    .pipe(gulp.dest(paths.output + '/js'));
+  gulp.src([
+    paths.vendor + '/jquery-1.11.3.min.js',
+    paths.vendor + '/underscore-1.8.3.min.js'
+  ])
+  .pipe(concat('vendor.js'))
+  .pipe(gulp.dest(paths.output + '/js'));
 });
 
 // build index html file

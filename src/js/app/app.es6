@@ -5,6 +5,7 @@ import About from './pages/about.es6'
 import Footer from './components/footer.es6'
 import Header from './components/header.es6'
 import Nav from './components/nav.es6'
+import Pages from './enums/pages.es6'
 
 
 var { Route, DefaultRoute, RouteHandler } = Router
@@ -26,7 +27,7 @@ class App extends React.Component {
 var routes = (
   <Route path="/" handler={App}>
     <DefaultRoute handler={Home}/>
-    <Route name="about" handler={About}/>
+    <Route name={Pages.ABOUT.getValue()} handler={About}/>
   </Route>
 )
 
