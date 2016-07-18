@@ -37,7 +37,7 @@ gulp.task('app:js', function () {
   .pipe(gulp.dest(paths.output + '/js'));
 });
 
-// build app js
+// build vendor js
 gulp.task('app:js:vendor', function () {
   gulp.src([
     paths.vendor + '/jquery-1.11.3.min.js',
@@ -70,15 +70,9 @@ gulp.task('app:assets', function() {
     .pipe(gulp.dest(paths.output + '/assets'));
 });
 
-// build app repo
-gulp.task('app:repo', function() {
-  gulp.src(paths.src + '/repo/**/*')
-    .pipe(gulp.dest(paths.output + '/repo'));
-});
-
 // default build process
-gulp.task('default', ['app:js', 'app:js:vendor', 'app:html', 'app:css', 'app:assets', 'app:repo'], function(){
-  console.log('done: add gulp watch here');
+gulp.task('default', ['app:js', 'app:js:vendor', 'app:html', 'app:css', 'app:assets'], function(){
+  console.log(' --- gulp build done --- ');
 });
 
 // local web http server - browserSync
