@@ -51,14 +51,8 @@ var _request = {
 }
 
 var Api = {
-  getImages: () => {
-    var url = "https://www.googleapis.com/customsearch/v1?";
-    url += "key=" + API_KEY;
-    url += "&cx=" + GOOGLE_SEARCH_ENGINE_ID;
-    url += "&q=" + "goal";
-    url += "&searchType=image";
+  getData: () => {
 
-    return _request.jsonp(url);
   }
 }
 
