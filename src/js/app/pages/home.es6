@@ -1,5 +1,6 @@
 import React from 'react'
 import Store from '../store/store.es6'
+import Api from '../store/api.es6'
 
  
 class Home extends React.Component {
@@ -13,6 +14,10 @@ class Home extends React.Component {
   }
 
   render() {
+    Api.getImages().then((data) => {
+      $('.content').append(data.items);
+    });
+
     return <div className="content home">
       <label>Home</label>
     </div>;
