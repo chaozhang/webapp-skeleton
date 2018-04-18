@@ -1,4 +1,4 @@
 # webapp-skeleton
 skeleton for a simple web application
 
-React + Gulp
+React + Webpack + Redux + React-router4 + Stylus
