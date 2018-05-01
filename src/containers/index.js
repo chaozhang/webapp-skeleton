@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
-import Header from '../components/header/'
 import Home from './home/'
 import Colors from './colors/'
 import Icons from './icons/'
 import Invalid from './invalid/'
 import Gallery from './gallery/'
-import Nav from '../components/nav/'
-import Footer from '../components/footer/'
+import Header from 'CommonComponents/header/'
+import Nav from 'CommonComponents/nav/'
+import Footer from 'CommonComponents/footer/'
 
 // import app styles
 require('../stylus/app.styl')

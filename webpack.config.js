@@ -14,11 +14,10 @@ module.exports = {
 
     resolve: {
         // Add '.ts' and '.tsx' as resolvable extensions.
-        extensions: ['.js', '.styl']
-        // alias: {
-        //     "Components": __dirname + "/src/components",
-        //     "Containers": __dirname + "/src/containers"
-        // }
+        extensions: ['.js', '.styl'],
+        alias: {
+            "CommonComponents": __dirname + "/node_modules/StyleGuide/src/components"
+        }
     },
 
     // watch mode options
@@ -40,12 +39,12 @@ module.exports = {
         rules: [
             {
                 test: [/\.js$/],
-                exclude: /node_modules/,
+                exclude: /node_modules(?!\/StyleGuide)/,
                 use: ['babel-loader']
             },
             {
                 test: [/\.styl$/],
-                exclude: /node_modules/,
+                exclude: /node_modules(?!\/StyleGuide)/,
                 use: ['style-loader', 'css-loader?url=false', 'stylus-loader']
             }
         ]

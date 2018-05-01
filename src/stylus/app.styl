@@ -1,11 +1,6 @@
-@import "../../node_modules/nib/lib/nib/index.styl"
-@charset "UTF-8" 
+// include style guide base styles
+@require "../../node_modules/StyleGuide/src/stylus/app.styl"
 
-normalize-css()
-
-@require "global/variables.styl"
-
-@require "global/**/*"
-
+// override styles for current app
 @require "../components/**/*.styl"
 
