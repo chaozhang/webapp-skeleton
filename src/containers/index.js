@@ -16,6 +16,8 @@ require('../stylus/app.styl')
 
 const BASE_URL = '/';
 
+const APP_NAME = 'webapp-skeleton-react-redux';
+
 const navItems = [
     {
       name: 'Home',
@@ -40,7 +42,7 @@ const footerProps = {
     name: 'Chao Zhang',
     title: 'Principal Software Engineer at Workday',
     repo: {
-        name: 'StyleGuide',
+        name: APP_NAME,
         user: 'chaozhang',
         url: 'https://github.com/chaozhang/'
     },
@@ -69,8 +71,8 @@ const App = () => {
         <Router>
             <div className='bodywrap'>
                 <Header
-                    repo = "https://github.com/chaozhang/StyleGuide"
-                    issues = "https://github.com/chaozhang/StyleGuide/issues/new"
+                    repo = {`https://github.com/chaozhang/${APP_NAME}`}
+                    issues = {`https://github.com/chaozhang/${APP_NAME}/issues/new`}
                 />
                 <Nav
                     navItems = {navItems}
