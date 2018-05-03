@@ -16,7 +16,7 @@ module.exports = {
         // Add '.ts' and '.tsx' as resolvable extensions.
         extensions: ['.js', '.styl'],
         alias: {
-            "CommonComponents": __dirname + "/node_modules/StyleGuide/src/components"
+            "CommonComponents": __dirname + "/node_modules/ChaoWebCommon/src/components"
         }
     },
 
@@ -39,12 +39,12 @@ module.exports = {
         rules: [
             {
                 test: [/\.js$/],
-                exclude: /node_modules(?!\/StyleGuide)/,
+                exclude: /node_modules(?!\/ChaoWebCommon)/,
                 use: ['babel-loader']
             },
             {
                 test: [/\.styl$/],
-                exclude: /node_modules(?!\/StyleGuide)/,
+                exclude: /node_modules(?!\/ChaoWebCommon)/,
                 use: ['style-loader', 'css-loader?url=false', 'stylus-loader']
             }
         ]

@@ -9,8 +9,11 @@ import Gallery from './gallery/'
 import Header from 'CommonComponents/header/'
 import Nav from 'CommonComponents/nav/'
 import Footer from 'CommonComponents/footer/'
+import Icon from 'CommonComponents/icons/'
 
 // import app styles
+// require('../stylus/base.styl')
+
 require('../stylus/app.styl')
 
 
@@ -73,6 +76,7 @@ const App = () => {
                 <Header
                     repo = {`https://github.com/chaozhang/${APP_NAME}`}
                     issues = {`https://github.com/chaozhang/${APP_NAME}/issues/new`}
+                    logo = {<Icon id="home"/>}
                 />
                 <Nav
                     navItems = {navItems}
