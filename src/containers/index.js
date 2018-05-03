@@ -12,9 +12,9 @@ import Footer from 'CommonComponents/footer/'
 import Icon from 'CommonComponents/icons/'
 
 // import app styles
-// require('../stylus/base.styl')
+require('../stylus/base.styl')
 
-require('../stylus/app.styl')
+require('../stylus/override.styl')
 
 
 const BASE_URL = '/';

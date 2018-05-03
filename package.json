@@ -20,11 +20,11 @@
     },
     "homepage": "https://github.com/chaozhang/webapp-skeleton-react-redux#readme",
     "dependencies": {
+        "ChaoWebCommon": "chaozhang/ChaoWebCommon",
         "prop-types": "^15.6.1",
         "react": "^16.3.1",
         "react-dom": "^16.3.2",
-        "react-router-dom": "^4.2.2",
-        "ChaoWebCommon": "chaozhang/ChaoWebCommon"
+        "react-router-dom": "^4.2.2"
     },
     "devDependencies": {
         "babel-core": "^6.26.0",
