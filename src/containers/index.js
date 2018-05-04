@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
+import { Provider } from 'react-redux'
 import Home from './home/'
 import Colors from './colors/'
 import Icons from './icons/'
@@ -10,6 +11,7 @@ import Header from 'CommonComponents/header/'
 import Nav from 'CommonComponents/nav/'
 import Footer from 'CommonComponents/footer/'
 import Icon from 'CommonComponents/icons/'
+import configureStore from '../store/configureStore'
 
 // import app styles
 require('../stylus/app.styl')
@@ -68,29 +70,33 @@ const footerProps = {
 };
  
 const App = () => {
+    const store = configureStore(()=>{});
+
     return (
-        <Router>
-            <div className='bodywrap'>
-                <Header
-                    repo = {`https://github.com/chaozhang/${APP_NAME}`}
-                    issues = {`https://github.com/chaozhang/${APP_NAME}/issues/new`}
-                    logo = {<Icon id="home"/>}
-                />
-                <Nav
-                    navItems = {navItems}
-                />
-                <div id='center'>
-                    <Switch>
-                        <Route exact path={navItems[0].url} component={Home} />
-                        <Route path={navItems[1].url} component={Colors} />
-                        <Route path={navItems[2].url} component={Icons} />
-                        <Route path={navItems[3].url} component={Gallery} />
-                        <Route component={Invalid} />
-                    </Switch>
+        <Provider store={store}>
+            <Router>
+                <div className='bodywrap'>
+                    <Header
+                        repo = {`https://github.com/chaozhang/${APP_NAME}`}
+                        issues = {`https://github.com/chaozhang/${APP_NAME}/issues/new`}
+                        logo = {<Icon id="home"/>}
+                    />
+                    <Nav
+                        navItems = {navItems}
+                    />
+                    <div id='center'>
+                        <Switch>
+                            <Route exact path={navItems[0].url} component={Home} />
+                            <Route path={navItems[1].url} component={Colors} />
+                            <Route path={navItems[2].url} component={Icons} />
+                            <Route path={navItems[3].url} component={Gallery} />
+                            <Route component={Invalid} />
+                        </Switch>
+                    </div>
+                    <Footer {...footerProps} />
                 </div>
-                <Footer {...footerProps} />
-            </div>
-        </Router>
+            </Router>
+        </Provider>
     );
 }
 
