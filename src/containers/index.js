@@ -12,6 +12,8 @@ import Nav from 'CommonComponents/nav/'
 import Footer from 'CommonComponents/footer/'
 import Icon from 'CommonComponents/icons/'
 import configureStore from '../store/configureStore'
+import rootReducer from './reducer'
+
 
 // import app styles
 require('../stylus/app.styl')
@@ -70,7 +72,7 @@ const footerProps = {
 };
  
 const App = () => {
-    const store = configureStore(()=>{});
+    const store = configureStore(rootReducer);
 
     return (
         <Provider store={store}>
