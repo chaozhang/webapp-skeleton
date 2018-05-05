@@ -3,27 +3,29 @@
 import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension/developmentonly'
 import createSagaMiddleware from 'redux-saga'
+import profile from 'WebCommon/data/profile'
 
+
+const initialState = {
+    profile: profile
+}
 
 const configureStore = (reducer) => {
-  const sagaMiddleware = createSagaMiddleware();
+    const sagaMiddleware = createSagaMiddleware();
 
-  // tslint:disable-next-line:prefer-array-literal
-  const middlewares = [
-    sagaMiddleware,
-  ];
+    const middlewares = [
+        sagaMiddleware,
+    ];
 
-  const initialState = {};
+  
 
-  const store = createStore(
+    const store = createStore(
         reducer,
         initialState,
         composeWithDevTools(
             applyMiddleware(...middlewares),
         ),
     );
-
-  store.runSaga = sagaMiddleware.run;
 
 
   return store;

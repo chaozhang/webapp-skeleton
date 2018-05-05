@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon from 'CommonComponents/icons/'
+import Icon from 'WebCommon/components/icons/'
 
 
 const Icons = () => {

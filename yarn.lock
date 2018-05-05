@@ -15,7 +15,7 @@
 
 ChaoWebCommon@chaozhang/ChaoWebCommon:
   version "0.0.2"
-  resolved "https://codeload.github.com/chaozhang/ChaoWebCommon/tar.gz/fca7179d8cfc9fd5a33db32c354cc9911656780f"
+  resolved "https://codeload.github.com/chaozhang/ChaoWebCommon/tar.gz/37daed6cbb67524c68068d72e2a5baf9bf6a4d68"
   dependencies:
     prop-types "^15.6.1"
     react "^16.3.1"
@@ -5075,10 +5075,6 @@ require-main-filename@^1.0.1:
 requires-port@1.0.x, requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/requires-port/-/requires-port-1.0.0.tgz?dl=https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
-
-reselect@^3.0.1:
-  version "3.0.1"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/reselect/-/reselect-3.0.1.tgz?dl=https://registry.yarnpkg.com/reselect/-/reselect-3.0.1.tgz#efdaa98ea7451324d092b2b2163a6a1d7a9a2147"
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
