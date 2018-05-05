@@ -1,7 +1,7 @@
 
 const initialState = {
     type: 'color',
-    data: {}
+    data: 'color page data'
 };
 
 const colorReducer = (state = initialState, action) => {

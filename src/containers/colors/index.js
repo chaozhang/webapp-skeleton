@@ -1,13 +1,18 @@
 import React from 'react'
+import { connect } from 'react-redux'
 
 
-const Colors = () => {
+const Colors = (props) => {
     return (
-        <div>
-            Page -> colors
-        </div>
+        <h2>
+            {props.conrent.type} page data: {props.conrent.data}
+        </h2>
     )
 }
 
+const mapStateToProps = (state, ownProps) => ({
+    conrent: state.content.color
+})
 
-export default Colors
+
+export default connect(mapStateToProps)(Colors)

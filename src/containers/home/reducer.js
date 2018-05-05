@@ -1,7 +1,7 @@
 
 const initialState = {
     type: 'home',
-    data: {}
+    data: 'home page data'
 };
 
 const homeReducer = (state = initialState, action) => {
