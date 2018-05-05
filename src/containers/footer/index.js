@@ -8,7 +8,7 @@ const mapStateToProps = (state, ownProps) => ({
     name: state.profile.name,
     title: state.profile.title,
     repo: {
-        name: state.APP_NAME,
+        name: state.gitRepo.appName,
         user: state.gitRepo.user,
         url: state.gitRepo.url
     },

@@ -1433,8 +1433,8 @@ colors@1.0.3:
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/colors/-/colors-1.0.3.tgz?dl=https://registry.yarnpkg.com/colors/-/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
 
 colors@^1.1.2:
-  version "1.2.3"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/colors/-/colors-1.2.3.tgz?dl=https://registry.yarnpkg.com/colors/-/colors-1.2.3.tgz#1b152a9c4f6c9f74bc4bb96233ad0b7983b79744"
+  version "1.2.4"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/colors/-/colors-1.2.4.tgz?dl=https://registry.yarnpkg.com/colors/-/colors-1.2.4.tgz#e0cb41d3e4b20806b3bfc27f4559f01b94bc2f7c"
 
 colors@~1.1.2:
   version "1.1.2"
@@ -1896,9 +1896,9 @@ duplexer3@^0.1.4:
   version "0.1.4"
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/duplexer3/-/duplexer3-0.1.4.tgz?dl=https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
 
-duplexify@^3.4.2, duplexify@^3.5.3:
-  version "3.5.4"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/duplexify/-/duplexify-3.5.4.tgz?dl=https://registry.yarnpkg.com/duplexify/-/duplexify-3.5.4.tgz#4bb46c1796eabebeec4ca9a2e66b808cb7a3d8b4"
+duplexify@^3.4.2, duplexify@^3.6.0:
+  version "3.6.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/duplexify/-/duplexify-3.6.0.tgz?dl=https://registry.yarnpkg.com/duplexify/-/duplexify-3.6.0.tgz#592903f5d80b38d037220541264d69a198fb3410"
   dependencies:
     end-of-stream "^1.0.0"
     inherits "^2.0.1"
@@ -1914,8 +1914,8 @@ ee-first@1.1.1:
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/ee-first/-/ee-first-1.1.1.tgz?dl=https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
 ejs@^2.5.9:
-  version "2.5.9"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/ejs/-/ejs-2.5.9.tgz?dl=https://registry.yarnpkg.com/ejs/-/ejs-2.5.9.tgz#7ba254582a560d267437109a68354112475b0ce5"
+  version "2.6.1"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/ejs/-/ejs-2.6.1.tgz?dl=https://registry.yarnpkg.com/ejs/-/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
 
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30:
   version "1.3.45"
@@ -2861,10 +2861,6 @@ ignore@^3.3.5:
   version "3.3.8"
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/ignore/-/ignore-3.3.8.tgz?dl=https://registry.yarnpkg.com/ignore/-/ignore-3.3.8.tgz#3f8e9c35d38708a3a7e0e9abb6c73e7ee7707b2b"
 
-immutable@^3.8.2:
-  version "3.8.2"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/immutable/-/immutable-3.8.2.tgz?dl=https://registry.yarnpkg.com/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
-
 import-local@^1.0.0:
   version "1.0.0"
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/import-local/-/import-local-1.0.0.tgz?dl=https://registry.yarnpkg.com/import-local/-/import-local-1.0.0.tgz#5e4ffdc03f4fe6c009c6729beb29631c2f8227bc"
@@ -3668,8 +3664,8 @@ merge-descriptors@1.0.1:
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/merge-descriptors/-/merge-descriptors-1.0.1.tgz?dl=https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
 
 merge2@^1.2.1:
-  version "1.2.1"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/merge2/-/merge2-1.2.1.tgz?dl=https://registry.yarnpkg.com/merge2/-/merge2-1.2.1.tgz#271d2516ff52d4af7f7b710b8bf3e16e183fef66"
+  version "1.2.2"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/merge2/-/merge2-1.2.2.tgz?dl=https://registry.yarnpkg.com/merge2/-/merge2-1.2.2.tgz#03212e3da8d86c4d8523cebd6318193414f94e34"
 
 methods@~1.1.2:
   version "1.1.2"
@@ -3912,9 +3908,9 @@ node-fetch@^1.0.1:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
-node-forge@0.7.1:
-  version "0.7.1"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/node-forge/-/node-forge-0.7.1.tgz?dl=https://registry.yarnpkg.com/node-forge/-/node-forge-0.7.1.tgz#9da611ea08982f4b94206b3beb4cc9665f20c300"
+node-forge@0.7.5:
+  version "0.7.5"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/node-forge/-/node-forge-0.7.5.tgz?dl=https://registry.yarnpkg.com/node-forge/-/node-forge-0.7.5.tgz#6c152c345ce11c52f465c2abd957e8639cd674df"
 
 node-libs-browser@^2.0.0:
   version "2.1.0"
@@ -4716,10 +4712,10 @@ pump@^2.0.0, pump@^2.0.1:
     once "^1.3.1"
 
 pumpify@^1.3.3:
-  version "1.4.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/pumpify/-/pumpify-1.4.0.tgz?dl=https://registry.yarnpkg.com/pumpify/-/pumpify-1.4.0.tgz#80b7c5df7e24153d03f0e7ac8a05a5d068bd07fb"
+  version "1.5.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/pumpify/-/pumpify-1.5.0.tgz?dl=https://registry.yarnpkg.com/pumpify/-/pumpify-1.5.0.tgz#30c905a26c88fa0074927af07256672b474b1c15"
   dependencies:
-    duplexify "^3.5.3"
+    duplexify "^3.6.0"
     inherits "^2.0.3"
     pump "^2.0.0"
 
@@ -5222,10 +5218,10 @@ select-hose@^2.0.0:
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/select-hose/-/select-hose-2.0.0.tgz?dl=https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
 
 selfsigned@^1.9.1:
-  version "1.10.2"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/selfsigned/-/selfsigned-1.10.2.tgz?dl=https://registry.yarnpkg.com/selfsigned/-/selfsigned-1.10.2.tgz#b4449580d99929b65b10a48389301a6592088758"
+  version "1.10.3"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/selfsigned/-/selfsigned-1.10.3.tgz?dl=https://registry.yarnpkg.com/selfsigned/-/selfsigned-1.10.3.tgz#d628ecf9e3735f84e8bafba936b3cf85bea43823"
   dependencies:
-    node-forge "0.7.1"
+    node-forge "0.7.5"
 
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.5.0:
   version "5.5.0"
@@ -5816,8 +5812,8 @@ typedarray@^0.0.6:
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/typedarray/-/typedarray-0.0.6.tgz?dl=https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
 ua-parser-js@^0.7.9:
-  version "0.7.17"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/ua-parser-js/-/ua-parser-js-0.7.17.tgz?dl=https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.17.tgz#e9ec5f9498b9ec910e7ae3ac626a805c4d09ecac"
+  version "0.7.18"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/ua-parser-js/-/ua-parser-js-0.7.18.tgz?dl=https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.18.tgz#a7bfd92f56edfb117083b69e31d2aa8882d4b1ed"
 
 uglify-es@^3.3.4:
   version "3.3.9"
@@ -6154,8 +6150,8 @@ webpack-sources@^1.0.1, webpack-sources@^1.1.0:
     source-map "~0.6.1"
 
 webpack@^4.5.0:
-  version "4.6.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/webpack/-/webpack-4.6.0.tgz?dl=https://registry.yarnpkg.com/webpack/-/webpack-4.6.0.tgz#363eafa733710eb0ed28c512b2b9b9f5fb01e69b"
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/webpack/-/webpack-4.7.0.tgz?dl=https://registry.yarnpkg.com/webpack/-/webpack-4.7.0.tgz#a04f68dab86d5545fd0277d07ffc44e4078154c9"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^3.0.0"
