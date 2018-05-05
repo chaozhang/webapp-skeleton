@@ -1,14 +1,14 @@
 // config redux store
-
 import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension/developmentonly'
 import createSagaMiddleware from 'redux-saga'
 import profile from 'WebCommon/data/profile'
+import gitRepo from 'WebCommon/data/gitRepo'
 
 
-const initialState = {
-    profile: profile
-}
+const APP_NAME = 'webapp-skeleton-react-redux';
+
+const initialState = {profile, gitRepo, APP_NAME};
 
 const configureStore = (reducer) => {
     const sagaMiddleware = createSagaMiddleware();
@@ -16,8 +16,6 @@ const configureStore = (reducer) => {
     const middlewares = [
         sagaMiddleware,
     ];
-
-  
 
     const store = createStore(
         reducer,
@@ -27,8 +25,10 @@ const configureStore = (reducer) => {
         ),
     );
 
+    store.runSaga = sagaMiddleware.run;
 
-  return store;
+
+    return store;
 };
 
 

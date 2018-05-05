@@ -15,7 +15,7 @@
 
 ChaoWebCommon@chaozhang/ChaoWebCommon:
   version "0.0.2"
-  resolved "https://codeload.github.com/chaozhang/ChaoWebCommon/tar.gz/37daed6cbb67524c68068d72e2a5baf9bf6a4d68"
+  resolved "https://codeload.github.com/chaozhang/ChaoWebCommon/tar.gz/120bb79be9540102bab63cfe8a5097957e51bee4"
   dependencies:
     prop-types "^15.6.1"
     react "^16.3.1"
@@ -2860,6 +2860,10 @@ ignore-walk@^3.0.1:
 ignore@^3.3.5:
   version "3.3.8"
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/ignore/-/ignore-3.3.8.tgz?dl=https://registry.yarnpkg.com/ignore/-/ignore-3.3.8.tgz#3f8e9c35d38708a3a7e0e9abb6c73e7ee7707b2b"
+
+immutable@^3.8.2:
+  version "3.8.2"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/immutable/-/immutable-3.8.2.tgz?dl=https://registry.yarnpkg.com/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
 
 import-local@^1.0.0:
   version "1.0.0"

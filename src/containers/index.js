@@ -7,9 +7,9 @@ import Colors from './colors/'
 import Icons from './icons/'
 import Invalid from './invalid/'
 import Gallery from './gallery/'
-import Header from 'WebCommon/components/header/'
+import Header from './header/'
 import Nav from 'WebCommon/components/nav/'
-import Footer from 'WebCommon/components/footer/'
+import Footer from './footer/'
 import Icon from 'WebCommon/components/icons/'
 import configureStore from '../store/configureStore'
 import rootReducer from './reducer'
@@ -20,8 +20,6 @@ require('../stylus/app.styl')
 
 
 const BASE_URL = '/';
-
-const APP_NAME = 'webapp-skeleton-react-redux';
 
 const navItems = [
     {
@@ -42,34 +40,6 @@ const navItems = [
     }
 ];
 
-const footerProps = {
-    year: (new Date()).getFullYear().toString(),
-    name: 'Chao Zhang',
-    title: 'Principal Software Engineer at Workday',
-    repo: {
-        name: APP_NAME,
-        user: 'chaozhang',
-        url: 'https://github.com/chaozhang/'
-    },
-    gitBtns: [
-        {
-          name: 'follow',
-          size: '170px'
-        },
-        {
-          name: 'star',
-          size: '90px'
-        },
-        {
-          name: 'fork',
-          size: '90px'
-        },
-        {
-          name: 'watch',
-          size: '100px'
-        }
-    ]
-};
  
 const App = () => {
     const store = configureStore(rootReducer);
@@ -78,11 +48,7 @@ const App = () => {
         <Provider store={store}>
             <Router>
                 <div className='bodywrap'>
-                    <Header
-                        repo = {`https://github.com/chaozhang/${APP_NAME}`}
-                        issues = {`https://github.com/chaozhang/${APP_NAME}/issues/new`}
-                        logo = {<Icon id="home"/>}
-                    />
+                    <Header />
                     <Nav
                         navItems = {navItems}
                     />
@@ -95,7 +61,7 @@ const App = () => {
                             <Route component={Invalid} />
                         </Switch>
                     </div>
-                    <Footer {...footerProps} />
+                    <Footer />
                 </div>
             </Router>
         </Provider>
