@@ -5,8 +5,8 @@ import Icon from 'WebCommon/components/icons/'
 
 
 const mapStateToProps = (state, ownProps) => ({
-    repo: `${state.gitRepo.url}${state.APP_NAME}`,
-    issues: `${state.gitRepo.url}${state.APP_NAME}/issues/new`,
+    repo: `${state.gitRepo.url}${state.gitRepo.appName}`,
+    issues: `${state.gitRepo.url}${state.gitRepo.appName}/issues/new`,
     logo: <Icon id="home"/>
 })
 
