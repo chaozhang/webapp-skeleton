@@ -5,9 +5,7 @@ import { connect } from 'react-redux'
 const Home = (props) => {
     return (
         <div>
-            <h2>Visual style guide is a collection of standard reusable styles and js components for your webapp development.</h2>
-        	<br/><br/>
-            <p>{props.conrent.type} page data: {props.conrent.data}</p>
+            <p>{props.conrent.data}</p>
         </div>
     );
 }

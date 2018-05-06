@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import Home from './home/'
-import Colors from './colors/'
-import Icons from './icons/'
+import Technologies from './technologies/'
+import Dependency from './dependency/'
 import Invalid from './invalid/'
-import Gallery from './gallery/'
 import Header from './header/'
 import Nav from 'WebCommon/components/nav/'
 import Footer from './footer/'
-import Icon from 'WebCommon/components/icons/'
 import configureStore from '../store/configureStore'
 import rootReducer from './reducer'
 
@@ -27,16 +25,12 @@ const navItems = [
       url: BASE_URL
     },
     {
-      name: 'Colors',
-      url: BASE_URL + 'colors'
+      name: 'Technologies',
+      url: BASE_URL + 'technologies'
     },
     {
-      name: 'Icons',
-      url: BASE_URL + 'icons'
-    },
-    {
-      name: 'Components',
-      url: BASE_URL + 'gallery'
+      name: 'Dependency',
+      url: BASE_URL + 'dependency'
     }
 ];
 
@@ -55,9 +49,8 @@ const App = () => {
                     <div id='center'>
                         <Switch>
                             <Route exact path={navItems[0].url} component={Home} />
-                            <Route path={navItems[1].url} component={Colors} />
-                            <Route path={navItems[2].url} component={Icons} />
-                            <Route path={navItems[3].url} component={Gallery} />
+                            <Route path={navItems[1].url} component={Technologies} />
+                            <Route path={navItems[2].url} component={Dependency} />
                             <Route component={Invalid} />
                         </Switch>
                     </div>
