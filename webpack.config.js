@@ -16,7 +16,7 @@ module.exports = {
         // Add '.ts' and '.tsx' as resolvable extensions.
         extensions: ['.js', '.styl'],
         alias: {
-            "WebCommon": __dirname + "/node_modules/ChaoWebCommon/src"
+            "WebCommon": __dirname + "/node_modules/ChaoWebCommon"
         }
     },
 

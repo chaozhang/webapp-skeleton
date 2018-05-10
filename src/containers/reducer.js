@@ -2,8 +2,8 @@ import { combineReducers } from 'redux'
 import home from './home/reducer'
 import technologies from './technologies/reducer'
 import dependency from './dependency/reducer'
-import profileData from 'WebCommon/data/profile'
-import baseGitRepoData from 'WebCommon/data/gitRepo'
+import profileData from 'WebCommon/src/data/profile'
+import baseGitRepoData from 'WebCommon/src/data/gitRepo'
 
 
 const gitRepoData = {

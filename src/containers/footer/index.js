@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import Footer from 'WebCommon/components/footer/'
+import { Footer } from 'WebCommon/lib/js/'
 
 
 const mapStateToProps = (state, ownProps) => ({

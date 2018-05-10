@@ -7,13 +7,15 @@ import Technologies from './technologies/'
 import Dependency from './dependency/'
 import Invalid from './invalid/'
 import Header from './header/'
-import Nav from 'WebCommon/components/nav/'
+import { Nav } from 'WebCommon/lib/js'
 import Footer from './footer/'
 import configureStore from '../store/configureStore'
 import rootReducer from './reducer'
 
 
 // import app styles
+// require('WebCommon/lib/css/base.css')
+
 require('../stylus/app.styl')
 
 

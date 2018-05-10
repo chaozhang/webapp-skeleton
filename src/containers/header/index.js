@@ -1,7 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import Header from 'WebCommon/components/header/'
-import Icon from 'WebCommon/components/icons/'
+import { Header, Icon } from 'WebCommon/lib/js/'
 
 
 const mapStateToProps = (state, ownProps) => ({
